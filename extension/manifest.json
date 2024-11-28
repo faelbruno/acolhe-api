@@ -1,0 +1,25 @@
+{
+    "manifest_version": 3,
+    "name": "Notificações de Eventos e Aniversários",
+    "version": "1.0",
+    "description": "Extensão para enviar notificações de eventos e aniversários.",
+    "background": {
+      "service_worker": "background.js"
+    },
+    "permissions": ["alarms", "notifications", "storage"],
+    "host_permissions": ["http://localhost/acolhe-api/*"],
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+        "16": "icon.png",
+        "48": "icon.png",
+        "128": "icon.png"
+      }
+    },
+    "icons": {
+      "16": "icon.png",
+      "48": "icon.png",
+      "128": "icon.png"
+    }
+  }
+  
